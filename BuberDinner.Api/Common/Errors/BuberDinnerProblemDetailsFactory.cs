@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
-using System.Diagnostics;
 
-namespace BuberDinner.Api.Errors;
+namespace BuberDinner.Api.Common.Errors;
 
 internal sealed class BuberDinnerProblemDetailsFactory : ProblemDetailsFactory
 {
