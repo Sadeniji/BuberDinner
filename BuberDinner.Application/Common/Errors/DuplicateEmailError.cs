@@ -1,5 +1,4 @@
-﻿using System.Net;
-using FluentResults;
+﻿using FluentResults;
 
 namespace BuberDinner.Application.Common.Errors;
 
