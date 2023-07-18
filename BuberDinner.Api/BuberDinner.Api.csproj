@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="Common\Http\" />
+    <Folder Include="Common\Mapping\" />
     <Folder Include="Errors\" />
   </ItemGroup>
 
